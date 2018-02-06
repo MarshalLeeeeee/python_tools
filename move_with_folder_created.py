@@ -4,7 +4,8 @@ import shutil
 
 s = os.getcwd()
 l = os.listdir(s)
-target_dir = 'C:\\Users\\MacheNike\\Documents\\GitHub\\SJTU_OnlineJudge'
+#target_dir = 'C:\\Users\\MacheNike\\Documents\\GitHub\\SJTU_OnlineJudge'
+target_dir = input("Input the dictionary you want the file to be put in:")
 #print(l)
 for dir_name in l:
 	os.chdir(s)
