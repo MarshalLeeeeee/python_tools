@@ -21,3 +21,7 @@
 <p>This is a basic frame for web scraping.</p>
 <p><b>requests</b> is used in <b>request_frame.py</b>.</p>
 
+<h2>ip_check.py</h2>
+<p>You can use this script to check the address of IP. Also, you can check the address and IP of URL.</p>
+<p><b>requests</b> is used in <b>ip_check.py</b>.</p>
+<p>I use <a href = "http://ip.chinaz.com/"><b>http://ip.chinaz.com/</b></a> as the website to collect the information.</p>
