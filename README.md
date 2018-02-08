@@ -10,3 +10,9 @@
 <p>The working firectory is where you put <b>rename_to_folder.py</b>.</p>
 <p>So, you can put <b>rename_to_folder.py</b> into the directory you want to make the change.</p>
 <i>Notice: the function is not fully packaged, thus you should alter the code according to your needs.</i>
+
+<h2>move_with_folder_created.py</h2>
+<p>This is designed for copying folders containing specific files into a newly created directory.</p>
+<p>The working is the where you put <b>move_with_folder_created.py</b> in and meanwhile is where the files are.</p>
+<p>The target directory can be specified through input.</p>
+<i>Notice: the function is not fully packaged, thus you should alter the code according to your needs.</i>
