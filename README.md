@@ -16,3 +16,8 @@
 <p>The working is the where you put <b>move_with_folder_created.py</b> in and meanwhile is where the files are.</p>
 <p>The target directory can be specified through input.</p>
 <i>Notice: the function is not fully packaged, thus you should alter the code according to your needs.</i>
+
+<h2>request_frame.py</h2>
+<p>This is a basic frame for web scraping.</p>
+<p><b>requests</b> is used in <b>request_frame.py</b>.</p>
+
