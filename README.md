@@ -25,3 +25,9 @@
 <p>You can use this script to check the address of IP. Also, you can check the address and IP of URL.</p>
 <p><b>requests</b> is used in <b>ip_check.py</b>.</p>
 <p>I use <a href = "http://ip.chinaz.com/"><b>http://ip.chinaz.com/</b></a> as the website to collect the information.</p>
+
+<h2>csgo_inspect.py</h2>
+<p><b>csgo_inspect.py</b> helps you to save the inspect picture of item you wanna inspect.</p>
+<p>You only need to give the inspect link of the item and the path where you want to save the image.</p>
+<p>I use <a href = 'https://metjm.net/csgo/'><b>https://metjm.net/csgo/</b></a> as the website to help me to realize the function.</p>
+<p>Further more, I am developing script that can save all the inspect images given someone's the steam_id.</p>
