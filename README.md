@@ -31,3 +31,9 @@
 <p>You only need to give the inspect link of the item and the path where you want to save the image.</p>
 <p>I use <a href = 'https://metjm.net/csgo/'><b>https://metjm.net/csgo/</b></a> as the website to help me to realize the function.</p>
 <p>Further more, I am developing script that can save all the inspect images given someone's the steam_id.</p>
+
+<h2>json_reform.py</h2>
+<p><b>json_reform.py</b> reads the json context from the file and output the reformed format.</p>
+<p>It is designed for human preview.</p>
+<p>Two functions can both realize the function.</p>
+<p>You ca easily redirect the output to your screen or file or whatever.</p>
