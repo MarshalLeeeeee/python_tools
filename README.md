@@ -37,3 +37,7 @@
 <p>It is designed for human preview.</p>
 <p>Two functions can both realize the function.</p>
 <p>You ca easily redirect the output to your screen or file or whatever.</p>
+
+<h2>steam_id_checker.py</h2>
+<p><b>steam_id_checker.py</b> is designed for checking the steam id given the customed steam id.</p>
+<p>This script extracts information from <a href = 'www.steamidfinder.com'><b>www.steamidfinder.com</b></a>.</p>
