@@ -36,7 +36,7 @@
 <p><b>json_reform.py</b> reads the json context from the file and output the reformed format.</p>
 <p>It is designed for human preview.</p>
 <p>Two functions can both realize the function.</p>
-<p>You ca easily redirect the output to your screen or file or whatever.</p>
+<p>You can easily redirect the output to your screen or files or whatever.<i>(**file template has been added)</i></p>
 
 <h2>steam_id_checker.py</h2>
 <p><b>steam_id_checker.py</b> is designed for checking the steam id given the customed steam id.</p>
