@@ -40,6 +40,10 @@ def reform2():
 	with open(file_name, 'r+') as f:
 		js = json.loads(f.read())
 	#print(js)
+	####### if you want to output to some files, de-comment the following 3 lines
+	#file_name = input("Input the file name： ")
+	#with open(file_name, 'w') as f:
+		#f.write(json.dumps(js, indent = 4))
 	print(json.dumps(js, indent = 4))
 
 if __name__ == '__main__':
