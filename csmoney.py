@@ -16,7 +16,7 @@ def returnDic():
 	item = {}
 	for i in js:
 		item[i['m']] = i
-	with open('csmoney2.txt', 'w', encoding='utf-8') as f:
+	with open('csmoney.json', 'w', encoding='utf-8') as f:
 		#f.write(json.dumps(json.load(r.text), indent = 4))
 		f.write(json.dumps(item, indent = 4))
 
