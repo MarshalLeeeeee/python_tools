@@ -26,7 +26,7 @@ def returnDic():
 		#	#f.write(json.dumps(json.load(r.text), indent = 4))
 		#	f.write(r.text)
 		n += 1
-	with open('skinhub2.txt', 'w', encoding = 'utf-8') as f:
+	with open('skinhub.json', 'w', encoding = 'utf-8') as f:
 		f.write(json.dumps(item, indent = 4))
 
 
