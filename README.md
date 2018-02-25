@@ -45,9 +45,9 @@
 <h2>csmoney.py</h2>
 <p><b>csmoney.py</b> extracts the database of all the items currently on sell on <a href = 'https://cs.money'>https://cs.money</a>.</p>
 <p>The output is <i>csmoney.json</i> with is a dictionary sorted by the item name.</p>
-<p><b>It is only used for personal use and no commercial use of it is allowed!</b></p>
+<p><b>It is only used for personal use (like local price checker) and no commercial use of it is allowed!</b></p>
 
 <h2>skinhub.py</h2>
 <p><b>skinhub.py</b> extracts the database of all the items currently on sell on <a href = 'https://skinhub.com/official'>https://skinhub.com/official</a>.</p>
 <p>The output is <i>skinhub.json</i> with is a dictionary sorted by the item name.</p>
-<p><b>It is only used for personal use and no commercial use of it is allowed!</b></p>
+<p><b>It is only used for personal use (like local price checker) and no commercial use of it is allowed!</b></p>
