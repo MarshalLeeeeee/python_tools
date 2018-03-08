@@ -15,7 +15,21 @@ def returnDic():
 	js = json.loads(r.text)
 	item = {}
 	for i in js:
-		item[i['m']] = i
+		try:
+			qual = i['e']
+			if qual == 'FN':
+				item[i['m'] + ' (Factory New)'] = i
+			if qual == 'MW':
+				item[i['m'] + ' (Minimal Wear)'] = i
+			if qual == 'FT':
+				item[i['m'] + ' (Field-Tested)'] = i
+			if qual == 'WW':
+				item[i['m'] + ' (Well-Worn)'] = i
+			if qual == 'BS':
+				item[i['m'] + ' (Battle-Scarred)'] = i
+		except:
+			continue
+		#item[i['m']] = i
 	with open('csmoney.json', 'w', encoding='utf-8') as f:
 		#f.write(json.dumps(json.load(r.text), indent = 4))
 		f.write(json.dumps(item, indent = 4))
