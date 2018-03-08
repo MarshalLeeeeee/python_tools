@@ -45,9 +45,15 @@
 <h2>csmoney.py</h2>
 <p><b>csmoney.py</b> extracts the database of all the items currently on sell on <a href = 'https://cs.money'>https://cs.money</a>.</p>
 <p>The output is <i>csmoney.json</i> with is a dictionary sorted by the item name.</p>
+<p>The item name is regularized into 'name (QUALITY)'</p>
 <p><b>It is only used for personal use (like local price checker) and no commercial use of it is allowed!</b></p>
 
 <h2>skinhub.py</h2>
 <p><b>skinhub.py</b> extracts the database of all the items currently on sell on <a href = 'https://skinhub.com/official'>https://skinhub.com/official</a>.</p>
 <p>The output is <i>skinhub.json</i> with is a dictionary sorted by the item name.</p>
 <p><b>It is only used for personal use (like local price checker) and no commercial use of it is allowed!</b></p>
+
+<h2>price_compare.py</h2>
+<p><b>price_compare.py</b> is designed for output the price gap collected from <a href = 'https://cs.money'>https://cs.money</a> and <a href = 'https://skinhub.com/official'>https://skinhub.com/official</a>.</p>
+<p>The output is ranked with the price ratio(csmoney/skinhub) DESC.</p>
+<p>You can either run with the existing data in json form, or embed <b>csmoney.py</b> and <b>skinhub.py</b> into this script to get instant data statistics.</p>
